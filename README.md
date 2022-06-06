@@ -45,8 +45,16 @@ This was followed by 3 t-tests run on a different manufacturing lot each time:
 
 For all lots, lot 1 and lot 2, we fail to reject the null hypothesis since p-values from their t-tests are greater than 0.05 (0.06, 1, and 0.61 respectively). We reject the null hypothesis for lot 3 since the p-value from its t-test is greater than 0.05 (at 0.04).
 
-## A Study Design to COmpare the MechaCar to the Competition
-A statistical study was designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+## Study Design: MechaCar vs Competition
+A statistical study was designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers (in the last 3 years).
+
+The metrics we are going to test are:
+safety features rating, malfunctions/recalls, type of engine (electric, gasoline, etc), current price, mpg (miles per gallon), and average cost of ownership.
+
+The null hypotheis is that MechaCar prototype is fairly priced given its performance based on all key factors. The alternative hypothesis is that it is unfairly priced based on its performance of key factors. 
+
+The statisitical test we will use to test the hypothesis is a multiple linear regression model, which can help us determine which factors (i.e. which independent variables and their combination in our collected dataset) have the highest (and significant) correlation with the listed selling price for the car. 
+
 
 
 
