@@ -15,9 +15,9 @@ The following shows the summary statistics for the model:
 
 The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle_weight, spoiler_angle, and AWD. The varaibles/coefficients vehicle_length and ground_clearance provide a random amount of variance to the mpg values in the dataset.
 
-Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model cannot be considered to be zero for the p-value is much less than the p-value (p-value = 5.35e-11). Looked at another way, some independent variables (vehicle_weight, spoiler_angle, AWD) had an effect on the dependent variable (mpg), and therefore the slope is not zero.
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+This linear model predicts the mpg of MechaCar prototypes effectively: it has an R-squared value of 71.49%, which signifies a 71.49% level of accuratly predicting the mpg values.
 
 ## Create Visualizations for the Trip Analysis
 Summary statistics were drawn up on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. 
