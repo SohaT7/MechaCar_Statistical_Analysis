@@ -31,7 +31,7 @@ The total summary and lot summary is shown below, respectively:
 According to the design specifications for the MechaCar suspension coils, the variance of the suspension coils should not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total (variance = 62.29), as well as for lots 1 and 2 (variance for lot 1 = 0.98; variance for lot 2 = 7.47). The data for lot 3, however, does not meet this design specification since its variance exceeds 100, at 170.29.
 
 ## T-Tests on Suspension Coils
-T-tests were run in order to determine if the manufacturing lots are statistically different from the mean population.
+T-tests were run in order to determine if the manufacturing lots are statistically different from the mean population. A confidence interval/significance level of 95% (i.e. 95% of the time the test results would be true) was used for these tests.
 
 A t-test was run on all the manufacturing lots:
 
@@ -42,6 +42,8 @@ This was followed by 3 t-tests run on a different manufacturing lot each time:
 ![t-test for lot 1](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot1.png)
 ![t-test for lot 2](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot2.png)
 ![t-test for lot 3](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot3.png)
+
+For all lots, lot 1 and lot 2, we fail to reject the null hypothesis since p-values from their t-tests are greater than 0.05 (0.06, 1, and 0.61 respectively). We reject the null hypothesis for lot 3 since the p-value from its t-test is greater than 0.05 (at 0.04).
 
 ## A Study Design to COmpare the MechaCar to the Competition
 A statistical study was designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
