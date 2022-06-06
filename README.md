@@ -13,6 +13,12 @@ The following shows the summary statistics for the model:
 
 ![LM_summary](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Images/lm_summary.png)
 
+The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle_weight, spoiler_angle, and AWD. The varaibles/coefficients vehicle_length and ground_clearance provide a random amount of variance to the mpg values in the dataset.
+
+Is the slope of the linear model considered to be zero? Why or why not?
+
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 ## Create Visualizations for the Trip Analysis
 Summary statistics were drawn up on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. 
 
