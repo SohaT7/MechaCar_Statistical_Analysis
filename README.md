@@ -2,6 +2,9 @@
 ## Overview of the Project
 AutoRUs' has a new prototype, the MechCar, but it suffers from production troubles which are in turn hindering the progress of the manufacturing team. The purpose of the project is to review the production data for insights that may aid the manufacturing team at AutosRUs'.
 
+### Tools used:
+R
+
 ## Linear Regression to Predict MPG
 A multiple linear regression analysis was run in order to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 
@@ -55,6 +58,8 @@ The null hypotheis is that MechaCar prototype is fairly priced given its perform
 
 The statisitical test we will use to test the hypothesis is a multiple linear regression model, which can help us determine which factors (i.e. which independent variables and their combination in our collected dataset) have the highest (and significant) correlation with the listed selling price for the car. 
 
+## Contact Information
+Email: st.sohatariq@gmail.com
 
 
 
