@@ -1,12 +1,39 @@
 # MechaCar_Statistical_Analysis
-## Overview of the Project
-A car manufacturing company has a new prototype, the MechCar, but it suffers from production troubles which are in turn hindering the progress of the manufacturing team. The purpose of the project is to review the production data for insights that may aid the manufacturing team at this company.
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+    - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)
+    - [Create Visualizations for the Trip Analysis](#Create-Visualizations-for-the-Trip-Analysis)
+    - [T-Tests on Suspension Coils](#T-Tests-on-Suspension-Coils)
+    - [Study Design: MechaCar vs Competition](#Study-Design:-MechaCar-vs-Competition)
+- [Contact Information](#contact-information)
 
-### Tools used:
-R
+## Overview of the Analysis
+### Purpose:
+This analysis aims to analyze the vehicle data from an automotive company in order to aid it in identifying the production troubles that are hindering the manufacture of the company's newest prototype car, the MechaCar.
 
-## Linear Regression to Predict MPG
-A multiple linear regression analysis was run in order to identify which variables in the dataset predict the mpg of MechaCar prototypes.
+### About the Dataset:
+The datasets used in this analysis are the following two csv files:
+ - [MechaCar MPG dataset](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv)
+ - [Suspension Coil dataset](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
+
+### Tools Used:
+ - R programming language
+
+### Description:
+The data was extracted, transformed, and loaded in (ETL), followed by the following data analysis:
+ - Multiple linear regression to determine which variables predict the miles per gallon (mpg) of the prototype car
+ - Data visualization through generating summary statistics on the pounds per square inch (PSI) of the suspension coils from the different manufacturing lots
+ - T-tests to determine if the manufacturing lots are statistically different from the mean population
+ - A statistical study to compare the protype car's performance against that of cars made by other manufacturers
+
+## Results
+### Linear Regression to Predict MPG
+A multiple linear regression analysis was run in order to identify which variables in the dataset predict the miles per gallon (mpg) of the car's prototypes.
 
 The following shows the results obtained on running the multiple linear regression model:
 
@@ -22,7 +49,7 @@ The slope of the linear model cannot be considered to be zero for the p-value is
 
 This linear model predicts the mpg of MechaCar prototypes effectively: it has an R-squared value of 71.49%, which signifies a 71.49% level of accuratly predicting the mpg values.
 
-## Create Visualizations for the Trip Analysis
+### Create Visualizations for the Trip Analysis
 Summary statistics were drawn up on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. 
 
 The total summary and lot summary is shown below, respectively:
@@ -33,7 +60,7 @@ The total summary and lot summary is shown below, respectively:
 
 According to the design specifications for the MechaCar suspension coils, the variance of the suspension coils should not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total (variance = 62.29), as well as for lots 1 and 2 (variance for lot 1 = 0.98; variance for lot 2 = 7.47). The data for lot 3, however, does not meet this design specification since its variance exceeds 100, at 170.29.
 
-## T-Tests on Suspension Coils
+### T-Tests on Suspension Coils
 T-tests were run in order to determine if the manufacturing lots are statistically different from the mean population. A confidence interval/significance level of 95% (i.e. 95% of the time the test results would be true) was used for these tests.
 
 A t-test was run on all the manufacturing lots:
@@ -48,7 +75,7 @@ This was followed by 3 t-tests run on a different manufacturing lot each time:
 
 For all lots, lot 1 and lot 2, we fail to reject the null hypothesis since p-values from their t-tests are greater than 0.05 (0.06, 1, and 0.61 respectively). We reject the null hypothesis for lot 3 since the p-value from its t-test is greater than 0.05 (at 0.04).
 
-## Study Design: MechaCar vs Competition
+### Study Design: MechaCar vs Competition
 If a statistical study were to be designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers (in the last 3 years), the metrics we would keep in our test are:
 safety features rating, malfunctions/recalls, type of engine (electric, gasoline, etc), current price, mpg (miles per gallon), and average cost of ownership.
 
@@ -58,7 +85,6 @@ The statistical test we would use to test the hypothesis will be a multiple line
 
 ## Contact Information
 Email: st.sohatariq@gmail.com
-
 
 
 
