@@ -9,7 +9,7 @@
     - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)
     - [Create Visualizations for the Trip Analysis](#Create-Visualizations-for-the-Trip-Analysis)
     - [T-Tests on Suspension Coils](#T-Tests-on-Suspension-Coils)
-    - [Study Design: MechaCar vs Competition](#Study-Design:-MechaCar-vs-Competition)
+    - [Study Design - MechaCar vs Competition](#Study-Design---MechaCar-vs-Competition)
 - [Contact Information](#contact-information)
 
 ## Overview of the Analysis
@@ -75,7 +75,7 @@ This was followed by 3 t-tests run on a different manufacturing lot each time:
 
 For all lots, lot 1 and lot 2, we fail to reject the null hypothesis since p-values from their t-tests are greater than 0.05 (0.06, 1, and 0.61 respectively). We reject the null hypothesis for lot 3 since the p-value from its t-test is greater than 0.05 (at 0.04).
 
-### Study Design: MechaCar vs Competition
+### Study Design - MechaCar vs Competition
 If a statistical study were to be designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers (in the last 3 years), the metrics we would keep in our test are:
 safety features rating, malfunctions/recalls, type of engine (electric, gasoline, etc), current price, mpg (miles per gallon), and average cost of ownership.
 
