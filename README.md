@@ -10,6 +10,7 @@
     - [Data Visualization for the Trip Analysis](#Data-Visualization-for-the-Trip-Analysis)
     - [T-Tests on Suspension Coils](#T-Tests-on-Suspension-Coils)
     - [Study Design - MechaCar vs Competition](#Study-Design---MechaCar-vs-Competition)
+- [Summary](#summary)
 - [Contact Information](#contact-information)
 
 ## Overview of the Analysis
@@ -43,7 +44,7 @@ The following shows the summary statistics for the model:
 
 ![LM_summary](https://github.com/SohaT7/MechaCar_Statistical_Analysis/blob/main/Images/lm_summary.png)
 
-The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle_weight, spoiler_angle, and AWD. The varaibles/coefficients vehicle_length and ground_clearance provide a random amount of variance to the mpg values in the dataset.
+The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are vehicle_weight, spoiler_angle, and All-Wheel Drive (AWD). The varaibles/coefficients vehicle_length and ground_clearance provide a random amount of variance to the mpg values in the dataset.
 
 The slope of the linear model cannot be considered to be zero for the p-value is much less than the p-value (p-value = 5.35e-11). Looked at another way, some independent variables (vehicle_weight, spoiler_angle, AWD) had an effect on the dependent variable (mpg), and therefore the slope is not zero.
 
@@ -61,7 +62,11 @@ The total summary and lot summary is shown below, respectively:
 According to the design specifications for the MechaCar suspension coils, the variance of the suspension coils should not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total (variance = 62.29), as well as for lots 1 and 2 (variance for lot 1 = 0.98; variance for lot 2 = 7.47). The data for lot 3, however, does not meet this design specification since its variance exceeds 100, at 170.29.
 
 ### T-Tests on Suspension Coils
-T-tests were run in order to determine if the manufacturing lots are statistically different from the mean population. A confidence interval/significance level of 95% (i.e. 95% of the time the test results would be true) was used for these tests.
+T-tests were run in order to determine if the manufacturing lots are statistically different from the mean population (mean PSI (pounds per square inch) of the population is 1500). A confidence interval/significance level of 95% (i.e. 95% of the time the test results would be true) was used for these tests.
+
+The null and alternative hypotheses are listed below:
+ - Null Hypothesis: No statistically significant difference between the two (true mean is equal to population mean)
+ - Alternative Hypothesis: Statistically significant difference between the two (true mean is not equal to population mean)
 
 A t-test was run on all the manufacturing lots:
 
@@ -83,6 +88,13 @@ The null hypotheis would be that MechaCar prototype is fairly priced given its p
 
 The statistical test we would use to test the hypothesis will be a multiple linear regression model, which can help us determine which factors (i.e. which independent variables and their combination in our collected dataset) have the highest (and significant) correlation with the listed selling price for the car. 
 
+## Summary
+To summarize the results, the independant variables that have an effect on the dependant variable miles per gallon (mpg) are vehicle_weight, spoiler_angle, and All-Wheel Drive (AWD). The design specifications that the variance of the suspension coils not exceed 100 pounds per square inch (PSI) are met by all lots, lot 1 individually, and lot 2 individually; lot 3 does not meet these design specifications. 
+
+The manufacturing lots which are statistically different from the mean population are lot 3 only. The t-tests run on lot 1, lot 2, and all lots yields results signifying that these lots are not statistically different from the mean population. Lot 3 is statistically different from the mean population, while lot 1, lot 2, and all lots do not have a statistically significant difference when compared to the mean population.
+
+A future statistical study can compare the performance (based on key factors) of the prototype car with cars manufactured by other companies. This can be done by determining if the prototype is fairly priced based on its performance (measured by key factors). A multiple linear regression will help identify which independent variables (key factors) have the highest correlation with the dependant variable (the listed selling price).
+ 
 ## Contact Information
 Email: st.sohatariq@gmail.com
 
