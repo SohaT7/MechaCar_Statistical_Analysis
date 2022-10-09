@@ -7,7 +7,7 @@
     - [Description](#description)
 - [Results](#results)
     - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)
-    - [Create Visualizations for the Trip Analysis](#Create-Visualizations-for-the-Trip-Analysis)
+    - [Data Visualization for the Trip Analysis](#Data-Visualization-for-the-Trip-Analysis)
     - [T-Tests on Suspension Coils](#T-Tests-on-Suspension-Coils)
     - [Study Design - MechaCar vs Competition](#Study-Design---MechaCar-vs-Competition)
 - [Contact Information](#contact-information)
@@ -49,7 +49,7 @@ The slope of the linear model cannot be considered to be zero for the p-value is
 
 This linear model predicts the mpg of MechaCar prototypes effectively: it has an R-squared value of 71.49%, which signifies a 71.49% level of accuratly predicting the mpg values.
 
-### Create Visualizations for the Trip Analysis
+### Data Visualization for the Trip Analysis
 Summary statistics were drawn up on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots. 
 
 The total summary and lot summary is shown below, respectively:
